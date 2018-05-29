@@ -1,0 +1,105 @@
+/* Name:
+*  Date: 
+*  Lab: C13 Fixed Layout Exercise */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 95%;
+    background-color: white;
+    margin: 15px auto; 
+    border: 1px solid black;
+    font-family: verdana;
+    font-size: 10pt;
+}
+
+h1 {
+    padding: 10px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+header {
+    border-bottom: 2px solid #C9EBD2;
+    text-align: center;
+    background: #D3DDD7;
+}
+#sidebarA {
+    width: 28%;
+    float: left;
+    font-size: 10pt;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+main {
+    /* height: ;  */
+    width: 44%;
+    float: left;
+    border-right: 2px solid #C9EBD2;
+    border-left: 2px solid #C9EBD2;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+main p {
+	margin: 7px;
+	font-size: 12pt;
+	color: #3F9E60;
+
+}
+
+ul {
+	margin-left: 20px;
+
+
+}
+
+#sidebarB {
+   /* width: 20%; */
+    float: right;
+    font-size: 10pt;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+footer {
+	/*footer css*/
+    clear: both;
+    border: 2px solid #C9EBD2;
+    background: #BEF1D0;
+    margin-bottom: 20px;
+}
+
+#footerp {
+	float: right;
+	font-size: 9pt;
+	color: #1B5D33;
+
+}
+
+footer ul {
+	/*sources list*/
+    font-size: 90%;
+    
+}
+#sources {
+	text-align: left;
+
+}
+.leftimg {
+	float: left;
+	margin: 10px;
+	border: 3px solid #99D8A8;
+	
+}
+.rightimg {
+	float: center;
+	margin: 10px;
+	border: 3px solid #99D8A8;
+
+}
